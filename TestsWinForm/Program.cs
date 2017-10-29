@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Lempa.WeatheCollector.Tests.WinForms.Forms;
 
-namespace TestsWinForm
+
+namespace Lempa.WeatheCollector.Tests.WinForms
 {
     static class Program
     {
@@ -16,7 +18,7 @@ namespace TestsWinForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new DefaultForm());
         }
     }
 }
